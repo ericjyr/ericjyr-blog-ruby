@@ -23,19 +23,19 @@ To-Do List Project Source Code: <https://drive.google.com/file/d/1yLRBh5rtd_FKEO
 
 This project will reflect on the labs in the Web Application course we completed in the previous semester. Like the labs from the previous semester, this project will use an MVC architecture. 
 
-![](/github/src_pr9ief.jpg)
+![Architecture](/github/src_pr9ief.jpg)
 
 
 With this application we will be able to:
 
 - View existing tasks within a database.
-    ![](/github/proj1_vuu15t.jpg)
+    ![image 1](/github/proj1_vuu15t.jpg)
 
 - Create new tasks.
-    ![](/github/proj2_nul3fi.jpg)
+    ![image 2](/github/proj2_nul3fi.jpg)
 
 - Edit existing tasks.
-    ![](/github/proj3_n6i8yr.jpg)
+    ![image 3](/github/proj3_n6i8yr.jpg)
 
 
 - Delete unneeded tasks. 
@@ -51,19 +51,19 @@ Before we jump into Spring Boot, let us create a database for our project. We ca
 
 1. In the Windows Search box find the MySQL Workbench application and open. 
 
-    ![](/github/mysqldb01_ruzwtq.jpg){: width="auto" .w-100 .left}
+    ![image 4](/github/mysqldb01_ruzwtq.jpg){: width="auto" .w-100 .left}
 
 2. Start/Open the existing instance. 
 
-    ![](/github/mysqldb02_adhm6y.jpg){: width="auto" .w-100 .left}
+    ![image 5](/github/mysqldb02_adhm6y.jpg){: width="auto" .w-100 .left}
 
 3. On the top icon menu press the add database button. 
 
-    ![](/github/mysqldb1_mdedyx.jpg){: width="auto" .w-100 .left}
+    ![image 6](/github/mysqldb1_mdedyx.jpg){: width="auto" .w-100 .left}
 
 4. For the name enter todoDB and press apply. 
 
-    ![](/github/mysqldb2_umhs7i.jpg){: width="auto" .w-100 .left}
+    ![image 7](/github/mysqldb2_umhs7i.jpg){: width="auto" .w-100 .left}
 
 Now that we created our database, let's move onto the Spring Boot Initializr! 
 
@@ -557,15 +557,15 @@ public class TodoFormController {
 ### Implementing the User Interface (UI):
 A visually appealing and user-friendly UI is crucial for any application's success. We'll use Thymeleaf, a powerful template engine, to design and implement the front-end of our to-do list application. This is not the focus of this blog, the three HTML files that will be needed for this tutorial can be found in the source code provided at the beginning of the blog. After retrieving the HTML code it will be placed in the templates folder found in `\src\main\resources`. 
 
-![](/github/temp1_pffkdh.jpg)
+![UI](/github/temp1_pffkdh.jpg)
 
 After we add the html files to the resources folder, let's run the main method once again and take a look at our end project! When we run the driver class, we will start a Tomcat server and we can access our project through the browser of our local machine. We can confirm this in the IDEs console. Below, we see that Tomcat started on port 8080.
 
-![](/github/tom1_ny0up0.jpg)
+![UI](/github/tom1_ny0up0.jpg)
 
 To access the project open your browser enter localhost:8080 for your URL. 
 
-![](/github/host1_g9cc8z.jpg)
+![Example Run](/github/host1_g9cc8z.jpg)
 
 
 ## Conclusion
