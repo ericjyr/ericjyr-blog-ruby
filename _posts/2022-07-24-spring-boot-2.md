@@ -8,9 +8,9 @@ pin: true
 math: true
 mermaid: true
 image:
-  path: /github/spring_wtzqse.png
-  lqip: /github/spring_wtzqse.png
-  alt: Spring Boot Logo with Nice Lady
+  path: /github/spring-boot-logo_kxhexe.png
+  lqip: /github/spring-boot-logo_kxhexe.png
+  alt: Spring Boot Logo
 ---
 
 
